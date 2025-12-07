@@ -1,0 +1,31 @@
+{
+  "name": "my-react-full",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": ".",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "framer-motion": "^10.12.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.2",
+    "@reduxjs/toolkit": "^1.9.5",
+    "react-redux": "^8.1.2",
+    "clsx": "^1.2.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.5.2",
+    "vite": "^5.0.0",
+    "prettier": "^2.8.8"
+  }
+}
